@@ -1,6 +1,6 @@
-# AB Test Demo
-
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/streamlit/example-app-ab-testing/main)
+
+# A/B Testing App
 
 Upload your experiment results to see the significance of your A/B test!
 
