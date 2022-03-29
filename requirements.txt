@@ -3,3 +3,4 @@ numpy==1.19.5
 altair==4.1.0
 pandas==1.2.5
 scipy==1.6.2
+click==8
