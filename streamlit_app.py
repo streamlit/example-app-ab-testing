@@ -9,7 +9,6 @@ st.set_page_config(
     page_title="A/B Testing App", page_icon="📊", initial_sidebar_state="expanded"
 )
 
-
 def conversion_rate(conversions, visitors):
     """Returns the conversion rate for a given number of conversions and number of visitors.
     Parameters
@@ -262,9 +261,11 @@ def calculate_significance(
     )
 
 
+st.image("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/bar-chart_1f4ca.png", width=100)
+
 st.write(
     """
-# 📊 A/B Testing App
+# A/B Testing App
 Upload your experiment results to see the significance of your A/B test.
 """
 )
@@ -272,7 +273,7 @@ Upload your experiment results to see the significance of your A/B test.
 uploaded_file = st.file_uploader("Upload CSV", type=".csv")
 
 use_example_file = st.checkbox(
-    "Use example file", False, help="Use in-built example file to demo the app"
+    "Use example file", True, help="Use in-built example file to demo the app"
 )
 
 ab_default = None
